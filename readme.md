@@ -9,34 +9,8 @@
 ## Implementação:
 - Implementação realizada em C++ e Python 3
 - Versão g++: 11.4.0
-- Versão Pyhon: 3.10.12
+- Versão Python: 3.10.12
 - Versão pip: 22.0.2
-
-## Estrutura de diretórios
-```
-grafos/
-│
-├──trabalho/
-    │
-    ├──parte1/                      # Diretório atual
-        │
-        ├──definicao/               # PDF com a definição da parte 1
-        ├──exemplos/                # Arquivos .dat disponibilizados
-        ├──logs/                    # Arquivos .txt com logs informativos
-        ├──src/                     # Arquivos com a implementação
-            ├──entities/            # Contém as classes Grafo e Aresta
-            ├──resultados/          # Contém os resultados com as rotas para cada arquivo de entrada
-            ├──utils/               # Contém implementações auxiliares
-            ├──main.cpp             # Arquivo de entrada
-            ├──visualizacao.ipynb   # Visualização dos resultados
-            ├──metricasGerais.cvs   # Arquivo csv com as métricas gerais dos grafos
-            ├──intermediacoes.cvs   # Arquivo csv com as métricas das intermediações de cada vértice de cada grafo
-        ├──readme.md                # Este arquivo
-    ├──parte2/
-        │
-        ├──dados/                   # dados de entrada para a parte 2 do trabalho
-        ├──solucoes/                # soluções de referência disponibilizadas pelo professor
-```
 
 ## Explicações gerais sobre a implementação
 - Foi implementado uma classe Grafo responsável por representar um grafo em memória
