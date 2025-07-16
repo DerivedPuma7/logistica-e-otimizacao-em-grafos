@@ -187,7 +187,7 @@ int main(int argc, char* argv[]) {
   cout << "Uso: " << argv[0] << " nome_do_arquivo.dat\n";
   cout << "ou\n";
   cout << "Uso: " << argv[0] << "\n";
-  string inputFilesDir = "../exemplos/";
+  string inputFilesDir = "../exemplos/"; // caminho absoluto, executável deve ser salvo no mesmo nível desse arquivo
 
   if(argc == 2) {
     string filename = argv[1];
