@@ -1,4 +1,4 @@
-# GCC262 - Grafos e suas aplicações - Trabalho Prático - Etapa 1
+# GCC262 - Grafos e suas aplicações - Trabalho Prático
 
 ## Grupo:
 - Nome - Matrícula
